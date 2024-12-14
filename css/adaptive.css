@@ -1,0 +1,170 @@
+@media (320px <=width <=1440px) {
+
+    .nav__list {
+        position: fixed;
+        transform: translate(-320px);
+        box-shadow: 10px 0px 30px 0px #454F7E05, 10px 0px 30px 0px #0E185033;
+    }
+
+    .nav__list-contacts {
+        margin-top: 268px;
+    }
+
+    .nav-burger-close{
+        display: block;
+    }
+    .header__nav {
+        display: flex
+    }
+
+    .header__title {
+        padding-top: 140px;
+
+    }
+
+    .header__title-items {
+        display: none;
+    }
+
+    .header__services {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    .header__services-list {
+        flex-flow: row;
+        overflow-y: hidden;
+    }
+
+    .header-info-text>.span-1 {
+        display: block;
+        margin-top: 25px;
+    }
+
+    .header-info-text>.span-2 {
+        display: none;
+    }
+
+    .header-picture2 {
+        display: block;
+        width: 100%;
+    }
+
+    .header-picture1,
+    .header-picture3 {
+        display: none;
+    }
+
+    .header-info-link> {
+        margin-top: 10px;
+    }
+
+
+
+
+
+
+    .brands__logos-view,
+    .brands__logos-more,
+    .witdh-768 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 32px;
+        row-gap: 16px;
+    }
+
+
+    .witdh-1120 {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
+@media (320px <=width <=768px) {
+
+
+
+    .container {
+        padding: 0 16px;
+    }
+
+
+    .nav__contacts-lang {
+        margin-bottom: 50px;
+    }
+
+    .nav__list-contacts {
+        margin-top: 0px;
+    }
+
+    .contact-item {
+        display: none;
+    }
+
+
+    .header__info-items {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .header__info-elem {
+        width: 100%;
+    }
+
+    .header-info-text {
+        margin-right: 0;
+        line-height: 18px;
+    }
+
+    .header-info-text>.span-1 {
+        display: none;
+    }
+
+    .elem-link {
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+
+    .header-picture3 {
+        display: block;
+        width: 100%;
+    }
+
+    .header-picture1,
+    .header-picture2 {
+        display: none;
+    }
+
+
+
+
+
+
+    .brands__more{
+        display: none;
+    }
+
+    .brands__swiper {
+        display: block !important;
+    }
+
+    .brands__logos {
+        display: none;
+    }
+
+    .brands__swiper-items {
+        display: flex !important;
+    }
+
+    
+
+}
