@@ -350,6 +350,18 @@ li::marker {
     margin-top: 17px;
 }
 
+.elem-link img{
+    margin-right: 16px;
+}
+
+.elem-more-link, .elem-closrMore-link{
+    display: none;
+}
+
+.elem-more-link.active, .elem-closrMore-link.active{
+    display: block !important;
+}
+
 /* universal elem end */
 
 

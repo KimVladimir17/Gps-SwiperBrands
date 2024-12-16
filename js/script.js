@@ -28,6 +28,8 @@ aside.addEventListener('click', () => {
 
 const moreOpen = document.querySelector('.more-link-open');
 const moreClose = document.querySelector('.more-link-close');
+const elemLinkMore = document.querySelector('.elem-more-link');
+const elemCloseMore = document.querySelector('.elem-closrMore-link');
 const contant = document.querySelector('.tabsContantItem');
 
 
@@ -35,11 +37,15 @@ moreOpen.addEventListener('click', () => {
     moreOpen.classList.toggle('active');
     contant.classList.toggle('active');
     moreClose.classList.toggle('active');
+    elemLinkMore.classList.toggle('active');
+    elemCloseMore.classList.toggle('active');
 })
 moreClose.addEventListener('click', () => {
     moreOpen.classList.toggle('active');
     contant.classList.toggle('active')
     moreClose.classList.toggle('active');
+    elemLinkMore.classList.toggle('active');
+    elemCloseMore.classList.toggle('active');
 })
 
 
